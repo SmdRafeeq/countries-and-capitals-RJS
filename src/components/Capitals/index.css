@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 40px;
+  min-width: 40%;
+}
+
+.select-options {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 15px 0;
+  margin-right: 10px;
+}
+
+.country-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+}
